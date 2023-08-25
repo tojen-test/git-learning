@@ -13,7 +13,7 @@ namespace Audio
     public class AudioSourceUnit
     {
         public AudioType Type;
-        public AudioClip[] Clip;
+        public AudioClip Clip;
         public float Volume = 0.1f;
     }
 
