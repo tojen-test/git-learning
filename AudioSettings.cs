@@ -14,29 +14,11 @@ namespace Audio
     {
         public AudioType Type;
         public AudioClip[] Clip;
-        [Range(0f,1f)]
-        public float Volume = 0.5f;
+        public float Volume = 0.1f;
     }
 
     public enum AudioType
     {
-        Clicks,
-        GameResult,
-        Room1Amb,
-        Room2Amb,
-        Steps1,
-        StepsRun1,
-        StepsWater2,
-        StepsRunWater2,
-        Shouts,
-        Breath,
-        AttackHunter,
-        DoorOpen,
-        Coin,
-        TimerStartHunter,
-        TimerStartVictim,
-        Performing,
-        PerformingDone,
         Key,
         ElectroLoop,
         ElectroOff,
